@@ -131,7 +131,7 @@ end
 def num_points_scored(name)
   # binding.pry
   game_hash.each do |home_or_away, team|
-    home_or_away[team][:players][:points]
     binding.pry
+    home_or_away[team][:players][:points]
   end
 end
