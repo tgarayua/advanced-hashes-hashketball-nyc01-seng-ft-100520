@@ -132,8 +132,8 @@ def num_points_scored(name)
   score = 0
   
   game_hash.each do |home_or_away, team|
-    binding.pry
-    score = home_or_away[players:][points:]
+    # binding.pry
+    score = home_or_away[2][3]
   end
   score
 end
