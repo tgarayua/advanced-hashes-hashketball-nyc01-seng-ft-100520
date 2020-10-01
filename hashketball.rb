@@ -128,10 +128,9 @@ def game_hash
   }
 end
 
-def num_points_scored(name)
-  player_score = 0 
+def num_points_scored(player_name)
 
-  game_hash.collect do |key, value|
+  game_hash.collect do |location, value|
     binding.pry
    if value[:players].include?(name)
      return value[:players][name][:points]
