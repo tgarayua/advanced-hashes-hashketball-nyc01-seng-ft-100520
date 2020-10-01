@@ -128,11 +128,9 @@ def game_hash
   }
 end
 
-def num_points_scored(nam, arg, arg2)
+def num_points_scored(name)
 
   game_hash.each do |key, value|
     binding.pry
-    name = game_hash[name]
   end
-  score
 end
