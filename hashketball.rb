@@ -1,4 +1,5 @@
 require './hashketball.rb'
+require 'pry'
 
 def game_hash
   {
@@ -128,5 +129,6 @@ def game_hash
 end
 
 def num_points_scored
+  binding.pry
   game_hash
 end
