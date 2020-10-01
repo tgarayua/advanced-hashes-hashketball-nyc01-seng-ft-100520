@@ -157,5 +157,6 @@ def team_colors(team_name)
       binding.pry
       return colors << :colors
     end
+    end
   end
 end
