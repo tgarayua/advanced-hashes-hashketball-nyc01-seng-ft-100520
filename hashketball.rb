@@ -132,7 +132,7 @@ def num_points_scored(name)
 
   game_hash.each do |key, value|
     binding.pry
-    name = game_hash[key][]
+    name = game_hash[:player_name]
   end
   score
 end
