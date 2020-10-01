@@ -128,7 +128,7 @@ def game_hash
   }
 end
 
-def num_points_scored()
+def num_points_scored(name)
   binding.pry
   game_hash[:home][:team_name]
 end
