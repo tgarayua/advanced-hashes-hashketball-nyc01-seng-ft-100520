@@ -129,7 +129,7 @@ def game_hash
 end
 
 def num_points_scored(name)
-  score = 0
+  score = nil
   
   game_hash.each do |home_or_away, team|
     # binding.pry
